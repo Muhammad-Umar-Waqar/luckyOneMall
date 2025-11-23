@@ -11,7 +11,7 @@
   border-radius: 26px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  height: 500px;
+  height: calc((80px * 2) + 1.25rem + (1.25rem * 2));
 }
 
 .freezer-card-container:hover {

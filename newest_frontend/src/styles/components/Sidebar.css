@@ -82,7 +82,7 @@
 .icon-muted { /* Removed filter to show blue icons properly */ }
 
 /* Tooltips */
-.sidebar-icon::after {
+/* .sidebar-icon::after {
 	content: attr(data-tooltip);
 	background: #0D5CA4;
 	color: #fff;
@@ -96,7 +96,7 @@
 	transition: opacity 0.3s ease;
 	pointer-events: none;
 	font-size: 12px;
-}
+} */
 
 .sidebar-icon:hover::after { opacity: 1; }
 

@@ -46,10 +46,10 @@ export default function DashboardRightPanel({
           ambientTemperature={0}
           batteryLow={true}
           needMaintenance={true}
-          apiKey={"8dbf5d2a37c4178b4b03e6c49ae3f9e7"}
+          apiKey={""}
           chartData={[]}
           organizationId={selectedOrgId}
-           closeIcon={closeIcon}   
+          closeIcon={closeIcon}   
           onClose={onClose}       
         />
       )}
