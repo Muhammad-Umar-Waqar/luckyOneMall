@@ -6,8 +6,24 @@
 
 /* Base styles for Organization Management */
 .organization-management-container {
-  padding: 2rem;
+  /* padding: 2rem; */
   max-width: 100%;
+}
+
+ .organization-add-container {
+    padding: 1rem;
+  }
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .organization-management-container {
+    padding: 1.5rem;
+    max-width: 93%;
+    margin: 0 auto;
+  }
 }
 
 .organization-list-section {
@@ -441,7 +457,7 @@
 
 /* Base styles for User Management */
 .user-management-container {
-  padding: 2rem;
+  /* padding: 2rem; */
   max-width: 100%;
 }
 
@@ -1635,7 +1651,6 @@
 .venue-management-container,
 .brand-management-container,
 .log-management-container {
-  padding: 2rem;
   max-width: 100%;
 }
 

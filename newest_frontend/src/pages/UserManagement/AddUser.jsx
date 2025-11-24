@@ -119,7 +119,7 @@ const menuProps = {
   };
 
   return (
-    <div className="AddingPage user-add-container rounded-xl shadow-sm w-full flex flex-col justify-center bg-[#EEF3F9] border border-[#E5E7EB]">
+    <div className=" md:p-none p-[1rem] AddingPage user-add-container rounded-xl shadow-sm w-full flex flex-col justify-center bg-[#EEF3F9] border border-[#E5E7EB]">
       <h2 className="user-add-title font-semibold mb-1 text-center">Add User</h2>
       <p className="user-add-subtitle text-gray-500 mb-6 text-center">Welcome back! Select method to add user</p>
       <form onSubmit={onsubmit}>

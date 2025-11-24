@@ -90,6 +90,7 @@ export const StoreProvider = ({ children }) => {
       const data = await res.json();
       // expected: { user: {...} } or user object — adapt if needed
       const fetchedUser = data.user ?? data;
+      console.log(fetchedUser)
       setUser(sanitizeUser(fetchedUser));
       // If backend returns token rotation, handle it like:
       // if (data.token) setToken(data.token)

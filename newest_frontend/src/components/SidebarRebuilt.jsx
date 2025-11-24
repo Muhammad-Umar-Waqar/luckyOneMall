@@ -631,7 +631,7 @@ const isActive = isVenueItem
 }
 
 
-const SidebarRebuilt = () => {
+const ebuilt = () => {
   const location = useLocation()
   const navigate = useNavigate()
   const { user, LogoutTrue } = useStore()
@@ -857,4 +857,4 @@ const SidebarRebuilt = () => {
   )
 }
 
-export default SidebarRebuilt
+export default ebuilt

@@ -23,7 +23,7 @@ const OTAManagement = () => {
 
   return (
     <div className="MobileBackgroundChange brand-management-container md:h-full bg-white rounded-[20px] w-full h-full" onClick={handleOutsideClick}>
-      <div className="MobileResponsivePageLayout shadow-md flex flex-col lg:flex-row gap-2 lg:gap-0 h-full w-full rounded-[20px]">
+      <div className="md:p-none p-[1rem] shadow-md flex flex-col lg:flex-row gap-2 lg:gap-0 h-full w-full rounded-[20px]">
         <OTAFileUpload className="AddPage brand-add-section" onUploadSuccess={refreshDevices} />
         <div className="hidden lg:block w-px bg-[#E5E7EB]"></div>
         <OTADeviceList className="ListPage brand-list-section"
